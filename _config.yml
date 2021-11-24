@@ -1,0 +1,55 @@
+creator: dennyrwa
+lang: id
+locale: id_ID
+themecolor: e73e4a
+company: bagusevitrans.com
+url: https://bagusevitrans.com
+siteurl: https://bagusevitrans.com
+icon: /favicon.ico
+logo: /images/nav-logo.webp
+alt-logo: Logo of bagusevitrans.com
+twitter: https://twitter.com/bagusevitrans/
+facebook: https://business.facebook.com/BaguseviTrans/
+instagram: https://www.instagram.com/gunawan.bagusevitrans/
+youtube: 
+copyright: © Copyright <strong>bagusevitrans.com</strong>. <br>All Rights Reserved and All the trademarks are the property of their respective owners
+whatsapp-float-desktop: https://web.whatsapp.com/send?phone=6281357754513&text=Hallo, CS bagusevitrans.com
+whatsapp-float-phone: whatsapp://send?text=Hallo, CS bagusevitrans.com!&phone=+6281357754513
+exclude: [README.md]
+email: bagusevitrans@gmail.com
+streetAddress: Jl. Masjid Baitusalam, RT.03 RW.01, Beciro, Jumputrejo, Sukodono
+postOfficeBoxNumber: 
+addressLocality: Kab. Sidoarjo
+addressRegion: Jawa Timur
+postalCode: 61258
+addressCountry: Indonesia
+telephone-kantor: 623199712923
+telephone-detail-kantor: (031) 9971-2923
+telephone: 6281357754513
+telephone-detail: +62813-5775-4513
+telephone2: 6285335353417
+telephone-detail2: +62853-3535-3417
+telephone3: 6282347539145
+telephone-detail3: +62823-4753-9145
+whatsapp-api: https://api.whatsapp.com/send?text=Hallo%20CS%20bagusevitrans.com%20(Nama)%20(Alamat)%20&phone=6281357754513
+fb_app_id: 295931695673344
+DMCA: 9166aa62-b34d-46d9-b6a7-103f7eda92a6
+place_id : ChIJqSOkfO7j1y0RuIfBoI5-RDA
+id_pelacakan_ga: G-K7HJH1TRNY
+google-my-bussiness:
+apk: https://drive.google.com/file/d/1HhkW3KfRED2jIPwQc581rVtSUlG6zvuc/view?usp=sharing
+permalink: pretty
+collections:
+  data-slider-desktop:
+    output: true
+  data-slider-mobile:
+    output: true
+  data-product:
+    output: true
+    permalink: /harga/:name/
+  data-client:
+    output: true
+    permalink: /testimoni/:name/
+  data-stok-lama:
+    output: true
+    permalink: /:name/
