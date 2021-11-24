@@ -1,0 +1,72 @@
+<header class="site-header ramadan ">
+    <ul class="main-header on-phone">
+        <li class="menu">
+            <a title="Menu" on="tap:sidebar.toggle">
+                <amp-img src="/images/hamburger.svg" alt="Menu" width="28px" height="28px" noloading></amp-img>
+            </a>
+        </li>
+        <li class="logo">
+            <a href="/" title="{{ site.company }}">
+                <amp-img src="{{ site.logo }}" alt="{{ site.alt-logo }}" width="184px" height="35px" noloading></amp-img>
+            </a>
+        </li>
+        <li class="search" role="button" tabindex="0" aria-label="facebook">
+            <a title="facebook" class="srch_icon" href="{{ site.facebook }}" rel="noreferrer">
+                <amp-img src="/images/facebook.svg" width="25px" height="25px" alt="facebook" title="facebook" layout="fixed"></amp-img>
+            </a>
+        </li>
+        <li class="location" aria-label="instagram">
+            <a title="instagram" href="{{ site.instagram }}" rel="noreferrer">
+                <amp-img src="/images/instagram.svg" width="25px" height="25px" alt="instagram" title="instagram" layout="fixed"></amp-img>
+            </a>
+        </li>
+        <li class="search" aria-label="youtube">
+            <a title="youtube" href="{{ site.youtube }}" rel="noreferrer">
+                <amp-img src="/images/youtube.svg" width="25px" height="25px" alt="youtube" title="youtube" layout="fixed"></amp-img>
+            </a>
+        </li>
+    </ul>
+    <ul class="main-header on-desktop">
+        <li class="logo">
+            <a href="/" title="{{ site.company }}">
+                <amp-img src="{{ site.logo }}" alt="{{ site.alt-logo }}" width="150px" height="34px"></amp-img>
+            </a>
+        </li>
+        <li>
+            <a href="/" title="HOME"><amp-img src="/images/home.svg" width="15px" height="15px" alt="HOME" title="HOME" layout="fixed"></amp-img> HOME</a>
+        </li>
+        <li>
+            <a href="/harga/" title="HARGA SEWA"><amp-img src="/images/rent.svg" width="20px" height="20px" alt="HARGA SEWA" title="HARGA SEWA" layout="fixed"></amp-img> HARGA SEWA</a>
+        </li>
+        <li>
+            <a href="/testimoni/" title="TESTIMONI"><amp-img src="/images/user.svg" width="15px" height="15px" alt="TESTIMONI" title="TESTIMONI" layout="fixed"></amp-img> TESTIMONI</a>
+        </li>
+        <li>
+            <a href="/blog/" title="BLOG"><amp-img src="/images/megaphone.svg" width="15px" height="15px" alt="BLOG" title="BLOG" layout="fixed"></amp-img> BLOG</a>
+        </li>
+        <li>
+            <a href="/tentang-kami/" title="TENTANG KAMI"><amp-img src="/images/testimoni.svg" width="15px" height="15px" alt="TENTANG KAMI" title="TENTANG KAMI" layout="fixed"></amp-img> TENTANG KAMI</a>
+        </li>
+        <li>
+            <a href="/kontak-kami/" title="KONTAK KAMI"><amp-img src="/images/maps.svg" width="15px" height="15px" alt="KONTAK KAMI" title="KONTAK KAMI" layout="fixed"></amp-img> KONTAK KAMI</a>
+        </li>
+        <li class="search" role="button" tabindex="0" aria-label="facebook">
+            <a title="facebook" class="srch_icon" href="{{ site.facebook }}" rel="noreferrer">
+                <amp-img src="/images/facebook.svg" width="25px" height="25px" alt="facebook" title="facebook" layout="fixed"></amp-img>
+            </a>
+        </li>
+        <li class="location" aria-label="instagram">
+            <a title="instagram" href="{{ site.instagram }}" rel="noreferrer">
+                <amp-img src="/images/instagram.svg" width="25px" height="25px" alt="instagram" title="instagram" layout="fixed"></amp-img>
+            </a>
+        </li>
+        <li class="location" aria-label="youtube">
+            <a title="youtube" href="{{ site.youtube }}" rel="noreferrer">
+                <amp-img src="/images/youtube.svg" width="25px" height="25px" alt="youtube" title="youtube" layout="fixed"></amp-img>
+            </a>
+        </li>
+        <li class="search-google" role="button" tabindex="0">
+            {% include search-google.html %}
+        </li>
+    </ul>
+</header>

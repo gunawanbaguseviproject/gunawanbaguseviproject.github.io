@@ -1,0 +1,197 @@
+<!doctype html>
+<html amp lang="{{ page.language }}">
+
+<head>
+    <title>{{ page.title }} | {{ site.company }}</title>
+    {% include metadata.html %}
+    <link rel="preconnect" href="https://cdn.ampproject.org/v0.js">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script custom-element="amp-sidebar" async src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <!-- <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script> -->
+    <!-- <script async custom-element="amp-web-push" src="https://cdn.ampproject.org/v0/amp-web-push-0.1.js"></script> -->
+    <!-- <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script> -->
+    <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
+    <script src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async="async" custom-element="amp-carousel"></script>
+    <script src="https://cdn.ampproject.org/v0/amp-selector-0.1.js" async="async" custom-element="amp-selector"></script>
+    <script src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async="async" custom-element="amp-accordion"></script>
+    <script src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js" async="async" custom-element="amp-lightbox"></script>
+    <script src="https://cdn.ampproject.org/v0/amp-bind-0.1.js" async="async" custom-element="amp-bind"></script>
+    <script src="https://cdn.ampproject.org/v0/amp-list-0.1.js" async="async" custom-element="amp-list"></script>
+    <script src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js" async="async" custom-template="amp-mustache"></script>
+    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <style amp-custom>﻿
+        {% include amp-style-home.html %}
+    </style>
+    {% include amp-boilerplate.html %}
+</head>
+
+<body>
+    <amp-analytics type="googleanalytics" id="analytics-ga">
+      <script type="application/json">
+      {
+        "vars": {
+          "account": "{{ site.id_pelacakan_ga }}"
+        },
+        "triggers": {
+          "trackPageview": {
+            "on": "visible",
+            "request": "pageview"
+          }
+        }
+      }
+    </script>
+    </amp-analytics>
+    {% include header.html %}
+    {% include structure-data-home.html %}
+    <main class="home-page">
+        {% include slider.html %}
+        <div class="card card-panel">
+            <li class="card">
+                <div id="mobile">
+                    <a href="/harga/" title="{{ site.company }}">
+                        <amp-img src="{{ page.image }}" width="1" height="1" alt="{{ site.company }}" title="{{ site.company }}" layout="responsive"></amp-img>
+                    </a>
+                </div>
+                <div class="card-panel">
+                    <h1 class="card-title">{{ page.title }} - {{ site.company }}</h1>
+                    <p class="info">{{ page.info }} <a href="/#artikel-home">Selanjutnya ...</a></p>
+                </div>
+            </li>
+        </div>
+    </main>
+    <main class="listing-page">
+        <amp-state id="brandContent">
+            <script type="application/json">
+            {
+                "currentState": "Baca Selengkapnya",
+                "Hide": {
+                    "style": "expanded"
+                },
+                "Baca Selengkapnya": {
+                    "style": "collapsed"
+                }
+            }
+            </script>
+        </amp-state>
+        <div class="card on-phone">
+            <a href="{{ site.apk }}"><h2 class="card-link">Ayo segera Install ...</h2><amp-img title="BE Rentcar" alt="BE Rentcar" height="63" width="161" layout="fixed" src="/images/google-play-badge.png"></amp-img></a>
+        </div>
+        {% include rate-us.html %}
+        <ul class="listing basic-listing-card">
+            <section class="card home-nav">
+                <h2>Bagaimana cara pesan di {{ site.company }}</h2>
+                <ul class="grid-3 clearfix car">
+                    <li class="car">
+                        <a href="/harga/" role="button" tabindex="0" id="new-truk" title="Pilih Mobil" class="card-icon"><amp-img src="/images/car.svg" width="38px" height="38px" alt="Pilih Mobil" title="Pilih Mobil" layout="fixed"></amp-img>
+                            <span class="truncate block">Pilih Mobil</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+{{ site.telephone }}" rel="noreferrer" role="button" tabindex="0" id="new-truk" title="Telepon Kami" class="card-icon"><amp-img src="/images/phone.svg" width="38px" height="38px" alt="Telepon Kami" title="Telepon Kami" layout="fixed"></amp-img>
+                            <span class="truncate block">Telepon Kami</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?text=Hallo%20CS%20{{ site.company }}%0ANama%20%3A%0AAlamat%20%3A&phone={{ site.telephone }}" rel="noreferrer" role="button" tabindex="0" id="new-truk" title="WA&trade; Kami" class="card-icon"><amp-img src="/images/whatsapp.svg" width="38px" height="38px" alt="WA&trade; Kami" title="WA&trade; Kami" layout="fixed"></amp-img>
+                            <span class="truncate block">WA&trade; Kami</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a role="button" tabindex="0" id="new-truk" title="Transaksi / DP" class="card-icon"><amp-img src="/images/pay.svg" width="38px" height="38px" alt="Transaksi / DP" title="Transaksi / DP" layout="fixed"></amp-img>
+                            <span class="truncate block">Transaksi / DP</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a role="button" tabindex="0" id="new-truk" title="Jemput / Antar" class="card-icon"><amp-img src="/images/antar-mobil.svg" width="38px" height="38px" alt="Jemput / Antar" title="Jemput / Antar" layout="fixed"></amp-img>
+                            <span class="truncate block">Jemput / Antar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://search.google.com/local/writereview?placeid={{ site.place_id }}" rel="noreferrer" role="button" tabindex="0" id="new-truk" title="Jemput / Antar" class="card-icon"><amp-img src="/images/star.svg" width="38px" height="38px" alt="Review di Google&trade;" title="Review di Google&trade;" layout="fixed"></amp-img>
+                            <span class="truncate block">Review di Google&trade;</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <div class="row">
+                {% for item in site.data-product %}
+                <div class="column">
+                    <div class="card">
+                        <a href="{{ item.url }}">
+                            <div>
+                                <amp-img src="{{ item.image }}" width="1" height="1" alt="{{ item.nama-produk }} " title="{{ item.nama-produk }} " layout="responsive"></amp-img>
+                            </div>
+                        </a>
+                        <div class="card-panel">
+                            <a class="card-link" href="{{ item.url }}" title="{{ item.nama-produk }}">{{ item.nama-produk }}</a>
+                            <ul>
+                                <li>{{ item.durasi }} : {{ item.ket-durasi }}</li>
+                                <li>{{ item.fasilitas }} : {{ item.ket-fasilitas-1 }} {{ item.ket-fasilitas-2 }}</li>
+                                <li>{{ item.rute }} : {{ item.ket-rute }}, {{ item.ex-rute }}</li>
+                            </ul>
+                            <a href="{{ item.url }}" title="Selengkapnya..."><b>Selengkapnya...</b></a>
+                            <a class="card-link" href="{{ item.url }}" title="{{ item.harga }}">{{ item.harga }}</a>
+                        </div>
+                        <div class="card-link">
+                            <a class="beli-sekarang" title="Pesan Sekarang dengan Whatsapp&trade;" href="https://api.whatsapp.com/send?text=halo%20{{ site.company }}%0ASaya%20mau%20pesan%0AKendaraan%20:%20{{ item.nama-produk }}%0A{{ site.siteurl }}{{ item.url }}%0ANama%20:%20%0AAlamat%20:%20%0ATanggal%20:%20%0ADurasi%20:%20&phone={{ site.telephone }}" rel="noreferrer"><amp-img src="/images/whatsapp.svg" width="15px" height="15px" alt="Pesan Sekarang dengan Whatsapp&trade;" title="Pesan Sekarang dengan Whatsapp&trade;" layout="fixed"></amp-img> Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="card cr-popular" id="artikel-home">
+                <div class="card-panel">
+                    {{ content }}
+                </div>
+            </div>
+            <!--Berita Terbaru-->
+            <li class="card cr-popular ">
+                <h2>Blog</h2>
+                <ul>
+                    <amp-carousel height="360" type="carousel" controls>
+                        {% for post in site.posts %}
+                        <li class="card">
+                            <a href="{{ post.url }}" title="{{ post.judul-post }}">
+                                <amp-img src="{{ post.image }}" width="3" height="2" alt="{{ post.judul-post }}" title="{{ post.judul-post }}" layout="responsive"></amp-img>
+                            </a>
+                            <div class="card-panel">
+                                <ul class="basic-listing-card user-reviews">
+                                    <a class="heading" href="{{ post.url }}" title="{{ post.judul-post }}">{{ post.judul-post }}</a>
+                                    <span class="rating-small">{{ post.kolom }}</span>
+                                    <span class="gr-mrgn-l">{{ post.date | date: "%-d %B %Y"}}</span>
+                                    <p class="text-heading gr-mrgn-t"></p>
+                                    <span class="hint gr-mrgn-b"></span>
+                                </ul>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </amp-carousel>
+                </ul>
+                <a class="cta-arrow" href="/blog/" title="Lihat Semua Blog / Berita Terbaru">Lihat Semua Blog / Berita Terbaru</a>
+            </li>
+            <!--Popular Car Section HTML end-->
+            <amp-state id="brandsIcon">
+                <script type="application/json">
+                {
+                    "currentState": "more",
+                    "less": {
+                        "style": "expanded"
+                    },
+                    "more": {
+                        "style": "collapsed"
+                    }
+                }
+                </script>
+            </amp-state>
+        </ul>
+        {% include client-review.html %}
+    </main>
+    {% include nav.html %}
+    {% include footer.html %}
+    {% include serviceworker.html %}
+    {% include float-button.html %}
+</body>
+
+</html>

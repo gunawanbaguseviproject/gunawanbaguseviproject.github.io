@@ -1,0 +1,20 @@
+<section class="card user-reviews padding-small-b">
+    <div><h2>Testimoni pengguna {{ site.company }}</h2><span class="hint"><a href="https://search.google.com/local/writereview?placeid={{ site.place_id }}">Berdasarkan review pelanggan di Google Maps&trade;, dan Anda juga dapat memberikan review dan rating untuk layanan kami dengan klik link ini, Terimakasih</a></span></div>
+    <br>
+    <ul class="basic-listing-card user-reviews">
+        <amp-carousel type="carousel" height="266" controls>
+            {% for item in site.data-client %}
+            <li class="card card-panel">
+                <a class="heading" href="{{ item.url }}">{{ item.judul-komentar }}</a>
+                <span class="rating-small"><amp-img src="/images/star-white.svg" width="10px" height="10px" alt="Review di Google&trade;" title="Hasil Review di Google&trade;" layout="fixed"></amp-img> {{ item.rating }}</span>
+                <span class="gr-mrgn-l">{{ item.nama-unit }}</span>
+                <p class="info line-clamp line-clamp-3">{{ item.komentar }}</p>
+                <a href="{{ item.url }}" title="{{ item.judul-komentar }}" class="font16 text-accent">
+                    Baca Selengkapnya </a>
+                <p class="text-heading gr-mrgn-t">{{ item.nama-client }}</p>
+                <span class="hint gr-mrgn-b">{{ item.tanggal-beli | date: "%-d %B %Y" }}</span>
+            </li>
+            {% endfor %}
+        </amp-carousel>
+    </ul>
+</section>

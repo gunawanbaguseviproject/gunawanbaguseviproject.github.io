@@ -1,0 +1,41 @@
+<header class="card card-panel">
+    <h2>Rating Kami di Google&trade;</h2>
+    <span class="rating gr-pad-t">
+        <i class="ic-star-filled"></i><i class="ic-star-filled"></i><i class="ic-star-filled"></i><i class="ic-star-filled"></i><i class="ic-star-filled"></i> <span class="hint"><a href="https://www.google.com/maps/place/Rental+Sewa+Mobil+Surabaya+Safarentcar/@-7.330326,112.804811,15z/data=!4m5!3m4!1s0x0:0xcd2583ddfd45ad1e!8m2!3d-7.330326!4d112.804811?hl=id-ID">Rating berdasarkan rating dan ulasan di Google Maps&trade;</a></span>
+    </span>
+    <div class="read-more brand-content">
+        <div class="collapsed" [class]="brandContent[brandContent.currentState].style">
+            <p class="info gr-mrgn-t">
+                Terimakasih telah memberikan rating tinggi terhadap pelayanan kami. Bagi Anda yang puas dengan layanan kami silakan <a href="https://search.google.com/local/writereview?placeid={{ site.place_id }}">klik link ini untuk memberikan rating kepada kami</a><br>Sekarang sudah saatnya giliran Anda untuk yang belum memperoleh layanan prima dari kami. Kontak kami untuk memastikan kesediaan pilihan Anda. <a class="theme-link text-accent" href="{{ site.whatsapp-api }}" title="Whatsapp {{ site.company }}">Klik di sini untuk menghubungi via Whatsapp</a>, atau lihat pilihan narahubung lainnya di laman <a class="theme-link text-accent" href="/kontak-kami/" title="Kontak Kami">Kontak Kami</a>.</p>
+            <div class="gr-listview margin-small-t">
+                <amp-accordion>
+                    <section>
+                        <h2>List Produk >></h2>
+                        <table class="price-table table-border">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <strong>Mobil</strong>
+                                    </th>
+                                    <th>
+                                        <strong>Harga Sewa</strong>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="gsc_thin_scroll">
+                                {% for item in site.data-product %}
+                                <tr>
+                                    <td><a href="{{ item.url }}">{{ item.nama-produk }}</a></td>
+                                    <td><strong>{{ item.harga }}</strong></td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </section>
+                </amp-accordion>
+            </div>
+        </div>
+    </div>
+    <button on="tap:AMP.setState({brandContent : {currentState: (brandContent.currentState == 'Tutup' ? 'Baca Selengkapnya' : 'Tutup')}})" [text]=" brandContent.currentState">Baca Selengkapnya</button>
+    <span class="hint">Segera dapatkan layanan terbaik dari kami</span>
+</header>

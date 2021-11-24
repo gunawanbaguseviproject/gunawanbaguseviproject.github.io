@@ -1,0 +1,48 @@
+<amp-sidebar id="sidebar" layout="nodisplay" side="left">
+    <ul>
+        <li class="nav-close" on="tap:sidebar.close" role="button" tabindex="0">
+            <amp-img src="/images/close.svg" width="36px" height="36px" alt="Close" title="close" layout="fixed"></amp-img>
+        </li>
+        <li>
+            <a href="/" title="HOME"><amp-img src="/images/home.svg" width="20px" height="20px" alt="HOME" title="HOME" layout="fixed"></amp-img> HOME</a>
+        </li>
+        <li>
+            <a href="/harga/" title="HARGA SEWA"><amp-img src="/images/rent.svg" width="20px" height="20px" alt="HARGA SEWA" title="HARGA SEWA" layout="fixed"></amp-img> HARGA SEWA</a>
+        </li>
+        <li>
+            <a href="/testimoni/" title="TESTIMONI"><amp-img src="/images/user.svg" width="20px" height="20px" alt="TESTIMONI" title="TESTIMONI" layout="fixed"></amp-img> TESTIMONI</a>
+        </li>
+        <li>
+            <a href="/blog/" title="BLOG"><amp-img src="/images/megaphone.svg" width="20px" height="20px" alt="BLOG" title="BLOG" layout="fixed"></amp-img> BLOG</a>
+        </li>
+        <li>
+            <a href="/tentang-kami/" title="TENTANG KAMI"><amp-img src="/images/testimoni.svg" width="20px" height="20px" alt="TENTANG KAMI" title="TENTANG KAMI" layout="fixed"></amp-img> TENTANG KAMI</a>
+        </li>
+        <li>
+            <a href="/kontak-kami/" title="KONTAK KAMI"><amp-img src="/images/maps.svg" width="20px" height="20px" alt="KONTAK KAMI" title="KONTAK KAMI" layout="fixed"></amp-img> KONTAK KAMI</a>
+        </li>
+        <!-- <li>
+            <a href="/happystyle.apk" title="Download Aplikasi Gratis">
+                Download Aplikasi GRATIS </a>
+        </li> -->
+        <li class="li-language clearfix">
+            <div class="float-left">
+                &nbsp; &nbsp; &nbsp;
+                <a href="tel:+{{ site.telephone }}" title="Telephone {{ site.company }}">
+                    <amp-img src="/images/phone.svg" width="36px" height="36px" alt="Telephone" title="Telephone" layout="fixed"></amp-img>
+                </a> &nbsp; &nbsp; &nbsp;
+                <a href="sms:{{ site.telephone }}" title="SMS {{ site.company }}">
+                    <amp-img src="/images/sms.svg" width="36px" height="36px" alt="SMS" title="SMS" layout="fixed"></amp-img>
+                </a> &nbsp; &nbsp; &nbsp;
+                <a href="{{ site.whatsapp-api }}" rel="noreferrer" title="Whatsapp {{ site.company }}">
+                    <amp-img src="/images/whatsapp.svg" width="36px" height="36px" alt="Whatsapp" title="Whatsapp" layout="fixed"></amp-img>
+                </a>
+            </div>
+        </li>
+        <li class="li-language clearfix">
+            <div class="float-left">
+                {% include search-google.html %}
+            </div>
+        </li>
+    </ul>
+</amp-sidebar>
