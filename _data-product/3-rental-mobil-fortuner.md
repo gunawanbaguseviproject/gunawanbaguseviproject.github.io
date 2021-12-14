@@ -6,17 +6,17 @@ permalink: /rental-mobil-fortuner/
 title: Rental Mobil Fortuner
 keyword: sewa mobil surabaya, sewa mobil surabaya murah, rental mobil surabaya, rental mobil surabaya murah, bagusevitrans, CV. Bagus Evi Trans, bagusevitrans.com, sewa mobil di surabaya, rental mobil di surabaya
 description: CV. Bagus Evi Trans Melayani Rental Toyota Fortuner paling Murah dan terpercaya di Jawa timur Hubungi kami Call/WA di 081357754513
-nama-produk: Fortuner
+nama-produk: Fortuner VRZ
 sku: TOYOTA-Fortuner-7-HTM-005
 gtin8: 600520201231
 priceValidUntil: 20201231 
-harga-schema: 500000
+harga-schema: 1500000
 nama-produk-asli: Toyota Fortuner
 jenis-kendaraan: SUV
 tempat-duduk: 7
-harga: 
+harga: Rp. 1.500.000
 durasi: Durasi
-ket-durasi: Fullday
+ket-durasi: Per 12 Jam
 fasilitas: Fasilitas
 ket-fasilitas-1: Mobil, Driver
 ket-fasilitas-2: BBM

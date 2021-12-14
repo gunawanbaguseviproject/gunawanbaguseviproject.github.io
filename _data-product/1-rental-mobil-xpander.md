@@ -5,13 +5,13 @@ image: /images/rental-mobil-xpander.png
 permalink: /rental-mobil-xpander/
 title: Rental Mobil Xpander
 keyword: sewa mobil surabaya, sewa mobil surabaya murah, rental mobil surabaya, rental mobil surabaya murah, bagusevitrans, CV. Bagus Evi Trans, bagusevitrans.com, sewa mobil di surabaya, rental mobil di surabaya
-description: CV. Bagus Evi Trans Melayani Rental / Sewa Mobil Daihatsu Xpander di Surabaya paling Murah dan terpercaya di Jawa timur Hubungi kami Call/WA di 081357754513
+description: CV. Bagus Evi Trans Melayani Rental / Sewa Mobil Mitsubishi Xpander di Surabaya paling Murah dan terpercaya di Jawa timur Hubungi kami Call/WA di 081357754513
 nama-produk: Xpander
-sku: DAIHATSU-Xpander-6-HTM-001
+sku: Mitsubishi-Xpander-6-HTM-001
 gtin8: 600120201231
 priceValidUntil: 20201231 
 harga-schema: 650000
-nama-produk-asli: Daihatsu Xpander
+nama-produk-asli: Mitsubishi Xpander
 jenis-kendaraan: Mini MPV
 tempat-duduk: 6
 harga: Rp. 650.000,-

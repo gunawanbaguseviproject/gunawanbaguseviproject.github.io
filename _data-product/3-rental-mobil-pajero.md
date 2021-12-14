@@ -6,17 +6,17 @@ permalink: /rental-mobil-pajero/
 title: Rental Mobil Pajero
 keyword: sewa mobil surabaya, sewa mobil surabaya murah, rental mobil surabaya, rental mobil surabaya murah, bagusevitrans, CV. Bagus Evi Trans, bagusevitrans.com, sewa mobil di surabaya, rental mobil di surabaya
 description: CV. Bagus Evi Trans Melayani Rental / Sewa Mobil Mitsubishi Pajero di Surabaya paling Murah dan terpercaya di Jawa timur Hubungi kami Call/WA di 081357754513
-nama-produk: Pajero
+nama-produk: Pajero New
 sku: Mitsubishi-PAJE-16-HTM-008
 gtin8: 600820201231
 priceValidUntil: 20201231 
-harga-schema: 500000
+harga-schema: 1500000
 nama-produk-asli: Mitsubishi Pajero
 jenis-kendaraan: SUV
 tempat-duduk: 7
-harga: 
+harga: Rp. 1.500.000
 durasi: Durasi
-ket-durasi: Fullday
+ket-durasi: Per 12 Jam
 fasilitas: Fasilitas
 ket-fasilitas-1: Mobil, Driver
 ket-fasilitas-2: BBM

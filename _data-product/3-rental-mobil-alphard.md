@@ -6,17 +6,17 @@ permalink: /rental-mobil-alphard/
 title: Rental Mobil Alphard
 keyword: sewa mobil surabaya, sewa mobil surabaya murah, rental mobil surabaya, rental mobil surabaya murah, bagusevitrans, CV. Bagus Evi Trans, bagusevitrans.com, sewa mobil di surabaya, rental mobil di surabaya
 description: CV. Bagus Evi Trans Melayani Rental Toyota Alphard paling Murah dan terpercaya di Jawa timur Hubungi kami Call/WA di 081357754513
-nama-produk: Alphard
+nama-produk: Alphard Facelife
 sku: TOYOTA-ALPHARD-6-HTM-005
 gtin8: 600520201231
 priceValidUntil: 20201231 
-harga-schema: 500000
+harga-schema: 2500000
 nama-produk-asli: Toyota Alphard
 jenis-kendaraan: MPV
 tempat-duduk: 7
-harga: 
+harga: Rp. 2.500.000
 durasi: Durasi
-ket-durasi: Fullday
+ket-durasi: Per 12 Jam
 fasilitas: Fasilitas
 ket-fasilitas-1: Mobil, Driver
 ket-fasilitas-2: BBM

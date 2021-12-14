@@ -1,7 +1,7 @@
 ---
 language: id
 layout: product-item
-image: /images/rental-mobil-hiace.png
+image: /images/rental-mobil-hiace-premio.png
 permalink: /rental-mobil-hiace-premio/
 title: Rental Mobil HiAce
 keyword: sewa mobil surabaya, sewa mobil surabaya murah, rental mobil surabaya, rental mobil surabaya murah, bagusevitrans, CV. Bagus Evi Trans, bagusevitrans.com, sewa mobil di surabaya, rental mobil di surabaya
@@ -10,13 +10,13 @@ nama-produk: HiAce Premio
 sku: TOYOTA-HIACE-13-HTM-007
 gtin8: 600720201231
 priceValidUntil: 20201231 
-harga-schema: 500000
+harga-schema: 1400000
 nama-produk-asli: Toyota HiAce
 jenis-kendaraan: Mini Bus
 tempat-duduk: 13
-harga: 
+harga: Rp. 1.400.000
 durasi: Durasi
-ket-durasi: Fullday
+ket-durasi: Per 12 Jam
 fasilitas: Fasilitas
 ket-fasilitas-1: Mobil, Driver
 ket-fasilitas-2: BBM

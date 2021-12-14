@@ -14,7 +14,7 @@ harga-schema: 500000
 nama-produk-asli: Toyota Grand New Innova
 jenis-kendaraan: Compact MPV
 tempat-duduk: 6
-harga: Rp. 800.000,-
+harga: Rp. 700.000,-
 durasi: Durasi
 ket-durasi: Fullday
 fasilitas: Fasilitas

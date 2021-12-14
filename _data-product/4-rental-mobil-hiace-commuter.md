@@ -10,13 +10,13 @@ nama-produk: HiAce Commuter
 sku: TOYOTA-HIACE-13-HTM-007
 gtin8: 600720201231
 priceValidUntil: 20201231 
-harga-schema: 500000
+harga-schema: 1100000
 nama-produk-asli: Toyota HiAce
 jenis-kendaraan: Mini Bus
 tempat-duduk: 13
-harga: 
+harga: Rp. 1.100.000
 durasi: Durasi
-ket-durasi: Fullday
+ket-durasi: Per 12 Jam
 fasilitas: Fasilitas
 ket-fasilitas-1: Mobil, Driver
 ket-fasilitas-2: BBM

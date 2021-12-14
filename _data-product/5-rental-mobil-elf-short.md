@@ -10,11 +10,11 @@ nama-produk: Elf Short
 sku: ISUZU-ELF-13-HTM-007
 gtin8: 600720201231
 priceValidUntil: 20201231 
-harga-schema: 500000
+harga-schema: 900000
 nama-produk-asli: Isuzu Elf Short
 jenis-kendaraan: Mini Bus
 tempat-duduk: 13
-harga: 
+harga: Rp. 900.000
 durasi: Durasi
 ket-durasi: Fullday
 fasilitas: Fasilitas

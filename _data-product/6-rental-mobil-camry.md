@@ -10,13 +10,13 @@ nama-produk: Camry
 sku: TOYOTA-camry-7-HTM-005
 gtin8: 600520201231
 priceValidUntil: 20201231 
-harga-schema: 500000
+harga-schema: 1500000
 nama-produk-asli: Toyota Camry
 jenis-kendaraan: MPV
 tempat-duduk: 7
-harga: 
+harga: Rp. 1.500.000
 durasi: Durasi
-ket-durasi: Fullday
+ket-durasi: Per 12 Jam
 fasilitas: Fasilitas
 ket-fasilitas-1: Mobil, Driver
 ket-fasilitas-2: BBM

@@ -14,7 +14,7 @@ harga-schema: 500000
 nama-produk-asli: Bus Medium 35 Seat
 jenis-kendaraan: MPV
 tempat-duduk: 7
-harga: 
+harga: Rp. 2.500.000
 durasi: Durasi
 ket-durasi: Fullday
 fasilitas: Fasilitas
