@@ -16,7 +16,7 @@ jenis-kendaraan: Mini MPV
 tempat-duduk: 6
 harga: Rp. 650.000,-
 durasi: Durasi
-ket-durasi: Fullday
+ket-durasi: Per 12 Jam
 fasilitas: Fasilitas
 ket-fasilitas-1: Mobil, Driver
 ket-fasilitas-2: BBM
