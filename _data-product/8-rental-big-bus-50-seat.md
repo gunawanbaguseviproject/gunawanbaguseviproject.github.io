@@ -14,7 +14,7 @@ harga-schema: 3000000
 nama-produk-asli: Big Bus 44,48,50 Seat
 jenis-kendaraan: MPV
 tempat-duduk: 7
-harga: Rp. 3.000.000
+harga: Call
 durasi: Durasi
 ket-durasi: Fullday
 fasilitas: Fasilitas

@@ -14,7 +14,7 @@ harga-schema: 1500000
 nama-produk-asli: Toyota Fortuner
 jenis-kendaraan: SUV
 tempat-duduk: 7
-harga: Rp. 1.500.000
+harga: Call
 durasi: Durasi
 ket-durasi: Per 12 Jam
 fasilitas: Fasilitas

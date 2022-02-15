@@ -14,7 +14,7 @@ harga-schema: 500000
 nama-produk-asli: Toyota Innova Reborn
 jenis-kendaraan: Compact MPV
 tempat-duduk: 6
-harga: Rp. 800.000,-
+harga: Rp. 600.000,-
 durasi: Durasi
 ket-durasi: Per 12 Jam
 fasilitas: Fasilitas
