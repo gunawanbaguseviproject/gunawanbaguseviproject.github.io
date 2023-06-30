@@ -14,7 +14,7 @@ harga-schema: 1100000
 nama-produk-asli: Toyota HiAce
 jenis-kendaraan: Mini Bus
 tempat-duduk: 13
-harga: Call
+harga: Rp. 1.100.000,-
 durasi: Durasi
 ket-durasi: Per 12 Jam
 fasilitas: Fasilitas

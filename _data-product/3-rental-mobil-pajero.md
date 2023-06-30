@@ -14,7 +14,7 @@ harga-schema: 1500000
 nama-produk-asli: Mitsubishi Pajero
 jenis-kendaraan: SUV
 tempat-duduk: 7
-harga: Call
+harga: Rp. 1.400.000,-
 durasi: Durasi
 ket-durasi: Per 12 Jam
 fasilitas: Fasilitas

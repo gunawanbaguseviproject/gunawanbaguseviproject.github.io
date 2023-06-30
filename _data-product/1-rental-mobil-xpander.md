@@ -14,7 +14,7 @@ harga-schema: 650000
 nama-produk-asli: Mitsubishi Xpander
 jenis-kendaraan: Mini MPV
 tempat-duduk: 6
-harga: Rp. 400.000,-
+harga: Rp. 650.000,-
 durasi: Durasi
 ket-durasi: Per 12 Jam
 fasilitas: Fasilitas

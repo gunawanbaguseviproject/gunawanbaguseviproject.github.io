@@ -10,11 +10,11 @@ nama-produk: Innova Grand New
 sku: TOYOTA-INNOVAGN-6-HTM-004
 gtin8: 600420201231
 priceValidUntil: 20201231
-harga-schema: 500000
+harga-schema: 700000
 nama-produk-asli: Toyota Grand New Innova
 jenis-kendaraan: Compact MPV
 tempat-duduk: 6
-harga: Rp. 500.000,-
+harga: Rp. 700.000,-
 durasi: Durasi
 ket-durasi: Per 12 Jam
 fasilitas: Fasilitas

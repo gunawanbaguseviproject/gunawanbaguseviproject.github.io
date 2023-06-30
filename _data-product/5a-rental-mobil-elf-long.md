@@ -14,7 +14,7 @@ harga-schema: 1300000
 nama-produk-asli: Isuzu Elf Long
 jenis-kendaraan: Mini Bus
 tempat-duduk: 16
-harga: Rp. 800.000
+harga: Rp. 1.200.000,-
 durasi: Durasi
 ket-durasi: Per 12 Jam
 fasilitas: Fasilitas

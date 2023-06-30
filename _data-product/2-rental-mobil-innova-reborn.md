@@ -10,11 +10,11 @@ nama-produk: Innova Reborn
 sku: TOYOTA-INNOVARB-6-HTM-005
 gtin8: 600520201231
 priceValidUntil: 20201231 
-harga-schema: 500000
+harga-schema: 750000
 nama-produk-asli: Toyota Innova Reborn
 jenis-kendaraan: Compact MPV
 tempat-duduk: 6
-harga: Rp. 600.000,-
+harga: Rp. 750.000,-
 durasi: Durasi
 ket-durasi: Per 12 Jam
 fasilitas: Fasilitas

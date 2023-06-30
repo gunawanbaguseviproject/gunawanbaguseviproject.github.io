@@ -14,7 +14,7 @@ harga-schema: 900000
 nama-produk-asli: Isuzu Elf Short
 jenis-kendaraan: Mini Bus
 tempat-duduk: 13
-harga: Rp. 800.000
+harga: Call
 durasi: Durasi
 ket-durasi: Per 12 Jam
 fasilitas: Fasilitas

@@ -14,7 +14,7 @@ harga-schema: 2500000
 nama-produk-asli: Toyota Alphard
 jenis-kendaraan: MPV
 tempat-duduk: 7
-harga: Call
+harga: Rp. 2.650.000,-
 durasi: Durasi
 ket-durasi: Per 12 Jam
 fasilitas: Fasilitas
